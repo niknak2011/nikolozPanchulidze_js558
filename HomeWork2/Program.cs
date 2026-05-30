@@ -8,7 +8,7 @@
             Console.WriteLine("chaweret tqveni asaki");
 
             string ageSTR = Console.ReadLine();
-            bool ageIsNumber = int.TryParse(ageSTR, out int age);
+            bool ageIsNumber = byte.TryParse(ageSTR, out byte age);
 
             if (ageIsNumber) 
             {
